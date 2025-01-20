@@ -1,3 +1,6 @@
+# Demo link
+https://abab1.github.io/purchase-list/
+
 # Steps to install and run
 - Make sure node and npm is installed
 - Clone the repo
@@ -16,12 +19,19 @@ I opted to create separate components for the mobile and desktop versions of the
 ## 
 
 # Enhancements
-[] Pagination for Desktop view
-[] Infinity list for Mobile view
-[] Spinner/Skeleton component for loading state
-[] Error screen for error state
-[] Actions on purchase items
+- Pagination for Desktop view
+- Infinity list for Mobile view
+- pinner/Skeleton component for loading state
+- Error screen for error state
+- Actions on purchase items
 
 
 
+# Screenshots
+
+## Desktop
+![image](https://github.com/user-attachments/assets/1f3dc8e3-41b8-4fd6-99fe-f33f8c750f11)
+
+## Mobile
+![image](https://github.com/user-attachments/assets/8f5942ac-e4f6-481c-bfc0-446e2cabff53)
 
