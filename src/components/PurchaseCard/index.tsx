@@ -7,6 +7,7 @@ interface PurchaseCardProps {
 }
 
 const PurchaseCard: FC<PurchaseCardProps> = ({ purchase }) => {
+  // Destructure object
   const { id, name, location, price, purchaseDate, description } = purchase;
   return (
     <div className="purchase-card" key={id} data-testid={`purchase-card-${id}`}>

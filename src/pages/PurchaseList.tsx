@@ -15,7 +15,7 @@ export const PurchaseList: FC = () => {
   );
   // Currently all data is fetched and renderd at once
   // ideally we would write a usePagination hook that allows us
-  // to query data pagewize and we can use a page navigation footer in
+  // to query data page wise and we can use a page navigation footer in
   // table view and some sort of infinity scroll in the mobile/card view
   // Also, I have not handled any actions in this exercise due to lack of time
   // Loading and error states are not handled
@@ -49,5 +49,6 @@ export const PurchaseList: FC = () => {
     [width, renderCards]
   );
 
+  // when loading show loading text else render purchase data
   return loading ? 'Loading ... ' : renderContent;
 };

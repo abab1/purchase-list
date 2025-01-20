@@ -1,5 +1,10 @@
 import dayjs from 'dayjs';
 
+/**
+ * 
+ * @param str : HTML-encoded string
+ * @returns regular string
+ */
 const decodeHTMLString = (str: string): string | null => {
   const parser = new DOMParser();
   const dom = parser.parseFromString(
@@ -9,6 +14,11 @@ const decodeHTMLString = (str: string): string | null => {
   return dom.body.textContent;
 };
 
+/**
+ * Transform the purchase object
+ * @param purchases: PurchaseItem
+ * @returns PurchaseItem
+ */
 export const transfromPurchaseResponse = (
   purchases: Array<Record<string, any>>
 ): Array<Record<string, any>> => {

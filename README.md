@@ -1,50 +1,27 @@
-# React + TypeScript + Vite
+# Steps to install and run
+- Make sure node and npm is installed
+- Clone the repo
+- execute npm i to install
+- execute npm run dev to start dev server. This will display the url that cna be used to test locally
+- execute npm run test to run tests
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Tech Stack
+- Vite
+- React
+- TypeScript
 
-Currently, two official plugins are available:
+# Approach
+The mobile and desktop version of the Purchase list are significantky different in layout, responsive behavior and interaction (considering pagination for table and inifinity list for card view). Considering this I chose to go with the approach of having separate components for mobile vs desktop version. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 
 
-## Expanding the ESLint configuration
+# Enhancements
+[] Pagination for Desktop view
+[] Infinity list for Mobile view
+[] Spinner/Skeleton component for loading state
+[] Error screen for error state
+[] Actions on purchase items
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```

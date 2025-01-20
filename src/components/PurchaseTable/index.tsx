@@ -13,13 +13,16 @@ const PurchaseTable: FC<PurchaseTableProps> = ({ purchases }) => {
     <table id="purchase-table" data-testid="purchase-table">
       <thead>
         <tr>
+          {/* Add headers for purchase item fields */}
           {PURCHASE_LIST_HEADERS.map((headerName: string) => (
             <th key={headerName}>{headerName}</th>
           ))}
         </tr>
       </thead>
       <tbody>
+        {/* for every purchase add a row in the table */}
         {purchases.map((purchaseItem: PurchaseItem) => {
+          // Destructure the object
           const {
             id,
             name,
