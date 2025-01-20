@@ -16,11 +16,11 @@ I opted to create separate components for the mobile and desktop versions of the
 ## 
 
 # Enhancements
-[] Pagination for Desktop view
-[] Infinity list for Mobile view
-[] Spinner/Skeleton component for loading state
-[] Error screen for error state
-[] Actions on purchase items
+- Pagination for Desktop view
+- Infinity list for Mobile view
+- pinner/Skeleton component for loading state
+- Error screen for error state
+- Actions on purchase items
 
 
 
