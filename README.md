@@ -1,3 +1,6 @@
+# Demo link
+https://abab1.github.io/purchase-list/
+
 # Steps to install and run
 - Make sure node and npm is installed
 - Clone the repo
