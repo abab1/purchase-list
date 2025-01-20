@@ -24,4 +24,11 @@ I opted to create separate components for the mobile and desktop versions of the
 
 
 
+# Screenshots
+
+## Desktop
+![image](https://github.com/user-attachments/assets/1f3dc8e3-41b8-4fd6-99fe-f33f8c750f11)
+
+## Mobile
+![image](https://github.com/user-attachments/assets/8f5942ac-e4f6-481c-bfc0-446e2cabff53)
 
