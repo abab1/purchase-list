@@ -6,8 +6,7 @@ export const PURCHASE_LIST_HEADERS: Array<string> = [
   'Purchase Date',
   'Category',
   'Description',
-  'Price',
-  ''
+  'Price'
 ];
 
 export const API_URL =

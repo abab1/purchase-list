@@ -45,10 +45,8 @@ const PurchaseTable: FC<PurchaseTableProps> = ({ purchases }) => {
                 <Tag text={category} />
               </td>
               <td className="description small-text">{description}</td>
-              <td>
+              <td className='price'>
                 <b>{`$${price}`}</b>
-              </td>
-              <td>
                 <div className="dot-container">
                   <div className="dot"></div>
                   <div className="dot"></div>
