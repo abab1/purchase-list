@@ -1,0 +1,30 @@
+#root {
+  color: rgb(51, 51, 51);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  margin: 0rem 8rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+/* Reduces margin for smaller widths */
+@media (max-width: 60rem) {
+  #root {
+    margin: 0rem 1rem;
+  }
+}

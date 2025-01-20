@@ -1,0 +1,52 @@
+#purchase-table {
+  outline: 1px solid #eee;
+  border-radius: 4px;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+#purchase-table th {
+  text-align: left;
+  padding: 1rem;
+  font-weight: 700;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  max-width: 30rem;
+}
+
+#purchase-table td {
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+#purchase-table tr:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.small-text {
+  font-size: 0.86rem;
+}
+
+.dot-container {
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.dot-container .dot {
+  background-color: rgb(115, 112, 112);
+  height: 4px;
+  width: 4px;
+  border-radius: 4px;
+  margin: 1px;
+}
+
+.logo {
+  vertical-align: middle;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}

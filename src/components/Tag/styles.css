@@ -1,0 +1,26 @@
+.tag {
+  display: inline-block;
+  padding: 1px 0.75rem;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.tag.black {
+  border: 2px solid #f0f0f0;
+}
+
+.tag.red {
+  border: 2px solid #ffebee;
+  color: #c62828;
+}
+
+.tag.green {
+  border: 2px solid #e8f5e9;
+  color: #2e7d32;
+}
+
+.tag.blue {
+  border: 2px solid #e3f2fd;
+  color: #1976d2;
+}
